@@ -3,6 +3,8 @@ require 'haml'
 ###
 # Page options, layouts, aliases and proxies
 ###
+#
+set :build_dir, "docs"
 
 # Per-page layout changes:
 #
