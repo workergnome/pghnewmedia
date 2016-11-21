@@ -1,0 +1,35 @@
+!!!
+%html{:lang => "en"}
+  %head
+
+    / Basic Page Needs
+    / ––––––––––––––––––––––––––––––––––––––––––––––––––
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "David Newbury", :name => "author"}/
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}
+    %link{:href => "//fonts.googleapis.com/css?family=Raleway:400,300,600", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "/images/favicon.png", :rel => "icon", :type => "image/png"}/
+    %link{:href => "/stylesheets/app.css", :rel => "stylesheet"}/
+
+    %title David Newbury
+  %body
+
+    / Primary Page Layout
+    / ––––––––––––––––––––––––––––––––––––––––––––––––––
+    = yield
+    %footer.secondary.footer
+      .container
+        .row
+          .three.columns{:style => "margin-top: 3%"}
+          .six.columns{:style => "margin-top: 3%"}
+            %p I am a footer.  I have footer information
+    
+    / Javascript
+    / ––––––––––––––––––––––––––––––––––––––––––––––––––
+ 
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="       crossorigin="anonymous"></script>
+    <script src="/app.js"></script>
+
+    / End Document
+    / ––––––––––––––––––––––––––––––––––––––––––––––––––
