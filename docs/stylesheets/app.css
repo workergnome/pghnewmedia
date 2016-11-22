@@ -858,13 +858,16 @@ there.
 /* Larger than Desktop HD */
 /* ---- BASIC PAGE STRUCTURE ---- */
 html {
-  background-color: #111; }
+  background-color: #000; }
 
 body {
   background-color: #f8f8f2; }
 
 .container {
   max-width: 1200px; }
+
+a {
+  color: #1a94ba; }
 
 /* ---- CODE FOR DARKER SECTIONS ---- */
 .secondary {
@@ -888,6 +891,8 @@ footer.footer {
   text-align: center; }
   footer.footer a {
     color: #167c9c; }
+  footer.footer p {
+    margin-bottom: 0.75rem; }
 
 /* ---- BUTTON STYLES ---- */
 .button,
@@ -953,6 +958,7 @@ input[type="button"] {
   margin-left: 10px; }
 
 .main_title {
-  padding-top: 10%; }
+  padding-top: 8%;
+  padding-bottom: 2%; }
   .main_title h3 {
     padding-top: 1.2rem; }
